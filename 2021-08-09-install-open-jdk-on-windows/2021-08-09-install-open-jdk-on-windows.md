@@ -28,4 +28,4 @@ related-id: start-java
 
 ![Окончание установки](img/install_05.png)
 
-Всё.
+Всё. JDK устанавливается в папку вида `C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\`.
