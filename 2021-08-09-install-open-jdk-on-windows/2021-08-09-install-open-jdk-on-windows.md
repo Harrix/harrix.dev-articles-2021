@@ -10,7 +10,7 @@ related-id: start-java
 
 Вместо [установки стандартного JDK](/blog/2019/install-jdk-on-windows/) можно установить [OpenJDK](https://ru.wikipedia.org/wiki/OpenJDK). Найти его можно на сайте <https://openjdk.java.net/>, но там не предоставляются установщики под Windows: «Мы вам сделали версию под GNU GPL? А собирать сами будете». Благо есть много организаций, которые сами собирают OpenJDK и его распространяют. Один из вариантов — это сайт <https://adoptium.net/>, который с 2021 года находится под крылом Eclipse, так что их сборкам можно доверять.
 
-Например, мне нужен OpenJDK для работы Qt под Android. И там по [документации](https://doc.qt.io/qt-5/android-getting-started.html) нужна версия JDK от 11 и ниже. Поэтому на сайте <https://adoptium.net/> скачиваем именно JDK 11:
+Например, мне нужен OpenJDK для работы Qt под Android. И там на 2021-08 до сих пор нужна версия JDK 8. Поэтому на сайте <https://adoptium.net/> скачиваем именно JDK 8:
 
 ![Скачивание установщика](img/download.png)
 
@@ -28,4 +28,4 @@ related-id: start-java
 
 ![Окончание установки](img/install_05.png)
 
-Всё. JDK устанавливается в папку вида `C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\`.
+Всё. JDK устанавливается в папку вида `C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot`.
