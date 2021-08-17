@@ -5,6 +5,8 @@ tags: [Установка, Python]
 
 # Установка Python
 
+Рассказываем, как установить Python на Windows.
+
 ## Скачивание
 
 Переходим на сайт <https://www.python.org/> и скачиваем версию под Windows:
