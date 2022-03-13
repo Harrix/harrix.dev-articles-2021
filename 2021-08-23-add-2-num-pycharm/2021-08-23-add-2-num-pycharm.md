@@ -9,9 +9,9 @@ tags: [Python, Сложение двух чисел, Установка]
 
 ## Установка программы
 
-Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](/blog/2021/install-python/).
+Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-03-install-python/2021-08-03-install-python.md).
 
-Далее устанавливаем сам PyCharm по статье [Установка PyCharm](/blog/2021/install-pycharm/).
+Далее устанавливаем сам PyCharm по статье [Установка PyCharm](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-17-install-pycharm/2021-08-17-install-pycharm.md).
 
 ## Создание проекта
 
@@ -19,7 +19,7 @@ tags: [Python, Сложение двух чисел, Установка]
 
 ![Создание нового проекта](img/new-project_01.png)
 
-О параметрах создаваемого проекта рассказано в статье [Установка PyCharm](/blog/2021/install-pycharm/). Так что тут просто скажу, что нужно указать месторасположение нового проекта и убедиться, что `Base interpreter` не горит красным и не пустой:
+О параметрах создаваемого проекта рассказано в статье [Установка PyCharm](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-17-install-pycharm/2021-08-17-install-pycharm.md). Так что тут просто скажу, что нужно указать месторасположение нового проекта и убедиться, что `Base interpreter` не горит красным и не пустой:
 
 ![Настройка проекта](img/new-project_02.png)
 
