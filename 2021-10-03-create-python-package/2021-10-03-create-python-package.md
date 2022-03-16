@@ -75,7 +75,7 @@ c:\projects\harrix-test-package\.env\Scripts\activate.bat
 
 Помните, когда виртуальное окружение активировано, то все пакеты вы устанавливаете не глобально, а в конкретный проект. Если потребуется выйти из активированного виртуального окружения, то это сделать можно через команду `deactivate` или `[Путь к виртуальному окружению]\Scripts\deactivate.bat` (при этом название виртуального окружения в круглых скобках пропадет).
 
-## Установка пакетов
+## Установка пакетов для создания пакетов
 
 Установите пакеты [setuptools](https://pypi.org/project/setuptools/),  [twine](https://pypi.org/project/twine/), [wheel](https://pypi.org/project/wheel/):
 
@@ -688,7 +688,7 @@ pip install harrix-test-package --upgrade
 
 ## Развертывание разработки пакета на новой машине
 
-Это последний сценарий, который рассмотрим. У нас есть, например, на GitHub [исходники](https://github.com/Harrix/harrix-test-package) нашего пакета, которые мы хотим склонировать на другой компьютер, например, в папку `c:\python-projects` (для примера папку специально назвал по-другому, чтобы она отличалась от `c:\projects`).
+У нас есть, например, на GitHub [исходники](https://github.com/Harrix/harrix-test-package) нашего пакета, которые мы хотим склонировать на другой компьютер, например, в папку `c:\python-projects` (для примера папку специально назвал по-другому, чтобы она отличалась от `c:\projects`).
 
 Считаем, что [Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-03-install-python/2021-08-03-install-python.md) и [Git](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-22-install-git/2021-08-22-install-git.md) у вас установлены на новой машине. Cклонировать проект можно такой командой:
 
@@ -765,3 +765,15 @@ python -m unittest discover tests
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
+
+## Установка локального пакета
+
+Если вы пока не хотите публиковать разрабатываемый пакет, но хотите использовать его в другом проекте, то его можно установить локально:
+
+```console
+pip install -e c:/projects/harrix-test-package
+```
+
+В качестве `c:/projects/harrix-test-package` выступает путь, где находится `setup.py`.
+
+Или просто скопировать папку пакета с кодом`C:\GitHub\harrix-test-package\src\harrixtestpackage` с кодом в папку `[папка виртуального окружения]\Lib\site-packages`.
