@@ -9,7 +9,7 @@ related-id: create-python-package
 
 # Создание пакетов в Python через pipenv
 
-Подробная инструкция по созданию собственного пакета Python через pipenv на примере  Windows 10.
+Подробная инструкция по созданию собственного пакета Python через pipenv на примере Windows 10.
 
 Пакет, созданный для этой статьи:
 
@@ -74,7 +74,7 @@ pipenv shell
 
 ## Установка пакетов для создания пакетов
 
-Установите пакеты [setuptools](https://pypi.org/project/setuptools/),  [twine](https://pypi.org/project/twine/), [wheel](https://pypi.org/project/wheel/):
+Установите пакеты [setuptools](https://pypi.org/project/setuptools/), [twine](https://pypi.org/project/twine/), [wheel](https://pypi.org/project/wheel/):
 
 ```console
 pipenv install setuptools
@@ -660,7 +660,7 @@ pipenv update harrix-test-package
 
 У нас есть, например, на GitHub [исходники](https://github.com/Harrix/harrix-test-package) нашего пакета, которые мы хотим склонировать на другой компьютер, например, в папку `c:\python-projects` (для примера папку специально назвал по-другому, чтобы она отличалась от `c:\projects`).
 
-Считаем, что [Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-03-install-python/2021-08-03-install-python.md) и [Git](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-22-install-git/2021-08-22-install-git.md) у вас установлены на новой машине. Cклонировать проект можно такой командой:
+Считаем, что [Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) и [Git](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-git/install-git.md) у вас установлены на новой машине. Cклонировать проект можно такой командой:
 
 ```console
 mkdir c:\python-projects
@@ -673,7 +673,7 @@ cd c:\python-projects\harrix-test-package
 
 Если в проекте есть файл `Pipfile`, то проект был создан под pipenv. Если есть еще файл `requirements.txt`, то удалите его.
 
-Если есть только файл `requirements.txt`, а файла `Pipfile` нет, то проект создан не под pipenv и смотрите другую статью [Создание пакетов в Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-10-03-create-python-package/2021-10-03-create-python-package.md).
+Если есть только файл `requirements.txt`, а файла `Pipfile` нет, то проект создан не под pipenv и смотрите другую статью [Создание пакетов в Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/create-python-package/create-python-package.md).
 
 На всякий случай обновляем pip и устанавливаем virtualenv, pipenv:
 

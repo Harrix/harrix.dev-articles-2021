@@ -8,7 +8,7 @@ related-id: create-python-package
 
 # Создание пакетов в Python
 
-Подробная инструкция по созданию собственного пакета Python на примере  Windows 10.
+Подробная инструкция по созданию собственного пакета Python на примере Windows 10.
 
 Пакет, созданный для этой статьи:
 
@@ -78,7 +78,7 @@ c:\projects\harrix-test-package\.env\Scripts\activate.bat
 
 ## Установка пакетов для создания пакетов
 
-Установите пакеты [setuptools](https://pypi.org/project/setuptools/),  [twine](https://pypi.org/project/twine/), [wheel](https://pypi.org/project/wheel/):
+Установите пакеты [setuptools](https://pypi.org/project/setuptools/), [twine](https://pypi.org/project/twine/), [wheel](https://pypi.org/project/wheel/):
 
 ```console
 pip install setuptools
@@ -691,7 +691,7 @@ pip install harrix-test-package --upgrade
 
 У нас есть, например, на GitHub [исходники](https://github.com/Harrix/harrix-test-package) нашего пакета, которые мы хотим склонировать на другой компьютер, например, в папку `c:\python-projects` (для примера папку специально назвал по-другому, чтобы она отличалась от `c:\projects`).
 
-Считаем, что [Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-03-install-python/2021-08-03-install-python.md) и [Git](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-22-install-git/2021-08-22-install-git.md) у вас установлены на новой машине. Cклонировать проект можно такой командой:
+Считаем, что [Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) и [Git](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-git/install-git.md) у вас установлены на новой машине. Cклонировать проект можно такой командой:
 
 ```console
 mkdir c:\python-projects

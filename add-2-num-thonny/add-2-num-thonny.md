@@ -10,7 +10,7 @@ tags: [Python, Сложение двух чисел, Установка]
 
 ## Установка программы
 
-Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/2021-08-03-install-python/2021-08-03-install-python.md).
+Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md).
 
 После этого на сайте <https://thonny.org/> скачиваем установщик:
 
