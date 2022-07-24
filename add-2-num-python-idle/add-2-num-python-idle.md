@@ -48,7 +48,7 @@ C:\Python39\pythonw.exe "C:\Python39\Lib\idlelib\idle.pyw"
 
 Напишем программу сложения двух чисел:
 
-```py
+```python
 a = int(input("Введите первое число "))
 b = int(input("Введите второе число "))
 c = a + b

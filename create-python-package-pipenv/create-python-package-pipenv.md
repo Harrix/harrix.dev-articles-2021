@@ -54,7 +54,7 @@ cd c:\projects\harrix-test-package
 
 Создайте под свой проект виртуальное окружение. У меня виртуальное окружение будет находиться в папке `.env`, находящейся в папке с проектом:
 
-```py
+```python
 pipenv install
 ```
 
@@ -86,7 +86,7 @@ pipenv install wheel
 
 У нас будет простой пакет с двумя функциями:
 
-```py
+```python
 def multiply_2(x):
     return x * 2
 
@@ -118,13 +118,13 @@ def multiply_10(x):
 
 Файл `src\harrixtestpackage\__init__.py` импортирует всё то, что есть в нашем пакете для пользователей:
 
-```py
+```python
 from .functions import *
 ```
 
 Файл `src\harrixtestpackage\functions.py`:
 
-```py
+```python
 def multiply_2(x):
     return x * 2
 
@@ -136,7 +136,7 @@ def multiply_10(x):
 
 Файл `tests\test_functions.py`:
 
-```py
+```python
 import unittest
 
 import harrixtestpackage as h
@@ -162,7 +162,7 @@ if __name__ == '__main__':
 
 Файл `setup.py`:
 
-```py
+```python
 from setuptools import find_packages, setup
 import pathlib
 here = pathlib.Path(__file__).parent.resolve()
@@ -236,7 +236,7 @@ pipenv install harrix-test-package
 
 ## Using
 
-```py
+```python
 import harrixtestpackage as h
 
 
@@ -250,7 +250,7 @@ print(h.multiply_2(2))
 
 **.gitignore** <!-- !details -->
 
-```py
+```python
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -456,7 +456,7 @@ python setup.py sdist bdist_wheel
 
 Отправьте пакет на тестовый сервер. При этом вам нужно будет ввести логин и пароль от своей учетки на TestPyPi. Обратите внимание на то, что когда вы будете вводить пароль, то пароль или звездочки не будут печататься. Но пароль будет вводиться в систему:
 
-```py
+```python
 twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
 
@@ -484,7 +484,7 @@ pipenv install -i https://test.pypi.org/simple/ harrix-test-package
 
 В созданной папке `c:\projects\test\` создаем файл `main.py`:
 
-```py
+```python
 import harrixtestpackage as h
 
 
@@ -518,7 +518,7 @@ python setup.py sdist bdist_wheel
 
 Отправьте пакет на основной сервер. При этом вам нужно будет ввести логин и пароль от своей учетки на PyPi:
 
-```py
+```python
 twine upload dist/*
 ```
 
@@ -546,7 +546,7 @@ pipenv install harrix-test-package
 
 В созданной папке `c:\projects\test2\` создаем файл `main.py`:
 
-```py
+```python
 import harrixtestpackage as h
 
 
@@ -565,14 +565,14 @@ python main.py
 
 Попробуем добавить новую функцию в пакет и опубликовать новую версию. Итак, мега полезная функция:
 
-```py
+```python
 def multiply_20(x):
     return x * 20
 ```
 
 После добавления файл `src\harrixtestpackage\functions.py` примет вид:
 
-```py
+```python
 def multiply_2(x):
     return x * 2
 
@@ -585,7 +585,7 @@ def multiply_20(x):
 
 Также добавим новый тест в файл `tests\test_functions.py`:
 
-```py
+```python
 import unittest
 
 import harrixtestpackage as h
@@ -623,7 +623,7 @@ python -m unittest discover tests
 
 В файле `setup.py` поменяем номер версии пакета на `0.2`:
 
-```py
+```python
 from setuptools import find_packages, setup
 import pathlib
 here = pathlib.Path(__file__).parent.resolve()
@@ -700,14 +700,14 @@ pipenv install --dev -e .
 
 Например, в файл `src\harrixtestpackage\functions.py` добавляю функцию:
 
-```py
+```python
 def multiply_30(x):
     return x * 30
 ```
 
 В файл `tests\test_functions.py` добавляю тест:
 
-```py
+```python
 def test_multiply_30(self):
     re = h.multiply_30(2)
     self.assertEqual(re, 60)
