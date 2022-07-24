@@ -193,7 +193,7 @@ license_files = LICENSE
 
 В файле лицензии `LICENSE` располагается текст вашей лицензии. У меня это [MIT лицензия](https://en.wikipedia.org/wiki/MIT_License):
 
-```md
+```markdown
 MIT License
 
 Copyright (c) [Year] [Your name]
@@ -219,7 +219,7 @@ SOFTWARE.
 
 Файл `README.md` содержит описание вашего пакета в формате [Markdown](https://ru.wikipedia.org/wiki/Markdown). Оно может быть любым. У меня оно такое:
 
-````md
+````markdown
 # harrix-test-package
 
 Test package.
