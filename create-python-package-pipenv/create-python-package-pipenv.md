@@ -3,7 +3,7 @@ date: 2021-10-03
 categories: [it, programming]
 tags: [Python]
 download: files/harrix-test-package.zip
-link: https://github.com/Harrix/harrix-test-package
+link: https://github.com/Harrix/harrix.dev-blog-2021/raw/main/create-python-package/files/harrix-test-package.zip
 related-id: create-python-package
 ---
 
