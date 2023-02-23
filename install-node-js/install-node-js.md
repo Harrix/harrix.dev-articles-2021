@@ -2,6 +2,8 @@
 date: 2021-08-16
 categories: [it, programming]
 tags: [Установка, JavaScript]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Установка Node.js

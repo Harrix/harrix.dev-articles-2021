@@ -2,6 +2,8 @@
 date: 2021-08-14
 categories: [it, program]
 tags: [Установка, Эмулятор]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Установка Virtual Box

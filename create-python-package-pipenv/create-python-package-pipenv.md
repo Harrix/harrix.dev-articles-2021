@@ -3,6 +3,8 @@ date: 2021-10-03
 categories: [it, programming]
 tags: [Python]
 related-id: create-python-package
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Создание пакетов в Python через pipenv

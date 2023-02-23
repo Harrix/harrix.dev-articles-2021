@@ -2,6 +2,8 @@
 date: 2021-08-27
 categories: [it, programming]
 tags: [Python, Сложение двух чисел, Установка]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Сложение двух чисел в VSCode на Python

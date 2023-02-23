@@ -2,6 +2,8 @@
 date: 2021-08-22
 categories: [it, program]
 tags: [Установка, Git, GitHub]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Установка Git + GitHub Desktop и работа с ними

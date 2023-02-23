@@ -2,6 +2,8 @@
 date: 2021-08-09
 categories: [it, program]
 tags: [Установка, Visual Studio, C++]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Установка Visual Studio 2019 Community

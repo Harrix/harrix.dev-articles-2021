@@ -4,6 +4,8 @@ categories: [it, programming]
 tags: [Python]
 download: https://github.com/Harrix/harrix.dev-blog-2021/raw/main/create-python-package/files/harrix-test-package.zip
 related-id: create-python-package
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Создание пакетов в Python

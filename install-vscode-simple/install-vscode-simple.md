@@ -2,6 +2,8 @@
 date: 2021-08-01
 categories: [it, program]
 tags: [Установка, VSCode, Текстовой редактор]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Установка Visual Studio Code (простая) и открытие Markdown

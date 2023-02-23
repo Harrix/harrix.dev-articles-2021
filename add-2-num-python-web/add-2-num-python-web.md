@@ -2,6 +2,8 @@
 date: 2021-08-26
 categories: [it, programming]
 tags: [Python, Сложение двух чисел, Установка, Online, Web]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Сложение двух чисел в Python на онлайн сервисах

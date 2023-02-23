@@ -2,6 +2,8 @@
 date: 2021-08-03
 categories: [it, program]
 tags: [Установка, Python]
+author: Anton Sergienko
+author-email: anton.b.sergienko@gmail.com
 ---
 
 # Установка Python
