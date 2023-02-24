@@ -4,6 +4,8 @@ categories: [it, programming]
 tags: [Python, Сложение двух чисел, Установка, Online, Web]
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
+license: CC BY 4.0
+license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 ---
 
 # Сложение двух чисел в Python на онлайн сервисах
