@@ -17,7 +17,7 @@ lang: ru
 
 PyCharm является одним из самых популярных сред для программирования на Python.
 
-Вначале нужно установить Python. В статье [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) об этом рассказывается.
+Вначале нужно установить Python. В статье [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/blog/2021/install-python/ --> об этом рассказывается.
 
 ## Скачивание
 

@@ -19,7 +19,7 @@ lang: ru
 
 ## Установка программы
 
-Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md).
+Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/blog/2021/install-python/ -->.
 
 При установке Python через официальный установщик в систему устанавливается простая среда разработки IDLE, в которой можно полноценно работать. Ей можно найти через поиск:
 

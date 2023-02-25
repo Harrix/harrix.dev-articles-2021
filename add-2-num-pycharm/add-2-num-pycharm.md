@@ -19,9 +19,9 @@ lang: ru
 
 ## Установка программы
 
-Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md).
+Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/blog/2021/install-python/ -->.
 
-Далее устанавливаем сам PyCharm по статье [Установка PyCharm](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-pycharm/install-pycharm.md).
+Далее устанавливаем сам PyCharm по статье [Установка PyCharm](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-pycharm/install-pycharm.md) <!-- https://harrix.dev/ru/blog/2021/install-pycharm/ -->.
 
 ## Создание проекта
 
@@ -31,7 +31,7 @@ lang: ru
 
 _Рисунок 1 — Создание нового проекта_
 
-О параметрах создаваемого проекта рассказано в статье [Установка PyCharm](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-pycharm/install-pycharm.md). Так что тут просто скажу, что нужно указать месторасположение нового проекта и убедиться, что `Base interpreter` не горит красным и не пустой:
+О параметрах создаваемого проекта рассказано в статье [Установка PyCharm](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-pycharm/install-pycharm.md) <!-- https://harrix.dev/ru/blog/2021/install-pycharm/ -->. Так что тут просто скажу, что нужно указать месторасположение нового проекта и убедиться, что `Base interpreter` не горит красным и не пустой:
 
 ![Настройка проекта](img/new-project_02.png)
 
