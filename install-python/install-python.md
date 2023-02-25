@@ -13,6 +13,8 @@ lang: ru
 
 # Установка Python
 
+![Featured image](featured-image.svg)
+
 Рассказываем, как установить Python на Windows.
 
 ## Скачивание

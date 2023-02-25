@@ -13,6 +13,8 @@ lang: ru
 
 # Установка Visual Studio 2019 Community
 
+![Featured image](featured-image.svg)
+
 В статье приведена инструкция по установке бесплатной версии Visual Studio 2019 Community на Windows 10 для программирования на C++.
 
 На сайте <https://visualstudio.microsoft.com/ru/> скачиваем установщик:

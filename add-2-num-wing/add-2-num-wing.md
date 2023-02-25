@@ -13,6 +13,8 @@ lang: ru
 
 # Сложение двух чисел в Wing Python IDE
 
+![Featured image](featured-image.svg)
+
 В статье рассказывается как создать консольное приложения сложения двух чисел в Wing Python IDE.
 
 ## Установка программы

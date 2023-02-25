@@ -13,6 +13,8 @@ lang: ru
 
 # Сложение двух чисел в Python IDLE
 
+![Featured image](featured-image.svg)
+
 Для работы с Python после его установки можно не устанавливать никаких других программ (PyCharm, VSCode, Wing и др.), а воспользоваться тем, что идет с Python.
 
 ## Установка программы

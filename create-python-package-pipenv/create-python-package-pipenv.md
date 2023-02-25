@@ -14,6 +14,8 @@ lang: ru
 
 # Создание пакетов в Python через pipenv
 
+![Featured image](featured-image.svg)
+
 Подробная инструкция по созданию собственного пакета Python через pipenv на примере Windows 10.
 
 Пакет, созданный для этой статьи:

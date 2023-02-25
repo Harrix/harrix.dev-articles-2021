@@ -13,6 +13,8 @@ lang: ru
 
 # Сложение двух чисел в VSCode на Python
 
+![Featured image](featured-image.svg)
+
 Используем для программирования на Python самый популярный навороченный блокнот VSCode.
 
 ## Установка программы
