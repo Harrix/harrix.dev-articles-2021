@@ -12,13 +12,10 @@ permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/creat
 permalink: https://harrix.dev/ru/blog/2021/create-python-package/
 lang: ru
 attribution:
-  - author: Python Packaging Authority / Python Software Foundation
-    author-site: https://pypi.org/
-    license: GNU General Public License
-    license-url: https://en.wikipedia.org/wiki/GNU_General_Public_License
-    permalink: https://en.wikipedia.org/wiki/File:PyPI_logo.svg
-    permalink-date: 2021-10-03
-    name: PyPI logo.svg
+- {author: Python Packaging Authority / Python Software Foundation, author-site: 'https://pypi.org/',
+  license: GNU General Public License, license-url: 'https://en.wikipedia.org/wiki/GNU_General_Public_License',
+  permalink: 'https://en.wikipedia.org/wiki/File:PyPI_logo.svg', permalink-date: 2021-10-03,
+  name: PyPI logo.svg}
 ---
 
 # Создание пакетов в Python
