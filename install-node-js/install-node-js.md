@@ -9,6 +9,14 @@ license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-node-js/install-node-js.md
 permalink: https://harrix.dev/ru/blog/2021/install-node-js/
 lang: ru
+attribution:
+  - author: node.js authors
+    author-site: https://nodejs.org/
+    license: Public domain
+    license-url: https://en.wikipedia.org/wiki/Public_domain
+    permalink: https://commons.wikimedia.org/wiki/File:Node.js_logo.svg
+    permalink-date: 2019-06-21
+    name: Node.js logo.svg
 ---
 
 # Установка Node.js

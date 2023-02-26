@@ -9,6 +9,14 @@ license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/add-2-num-code-blocks/add-2-num-code-blocks.md
 permalink: https://harrix.dev/ru/blog/2021/add-2-num-code-blocks/
 lang: ru
+attribution:
+  - author: The Code::Blocks team
+    author-site: https://www.codeblocks.org/
+    license: GNU General Public License
+    license-url: https://en.wikipedia.org/wiki/GNU_General_Public_License
+    permalink: https://wiki.codeblocks.org/index.php/File:Cb_splash.png
+    permalink-date: 2021-08-20
+    name: Cb_splash.png
 ---
 
 # Сложение двух чисел в Code::Blocks
