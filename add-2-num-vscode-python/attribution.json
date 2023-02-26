@@ -1,20 +1,22 @@
-[
+{
+"attribution":[
   {
     "title": "Python logo and wordmark.svg",
-    "url": "https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg",
-    "urlDate": "2021-08-01",
+    "permalink": "https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg",
+    "permalink-date": "2021-08-01",
     "author": "Python Software Foundation",
-    "authorUrl": "https://www.python.org/psf/",
+    "author-site": "https://www.python.org/psf/",
     "license": "GNU General Public License",
-    "licenseUrl": "https://en.wikipedia.org/wiki/GNU_General_Public_License"
+    "license-url": "https://en.wikipedia.org/wiki/GNU_General_Public_License"
   },
   {
     "title": "Visual Studio Code 1.35 icon.svg",
-    "url": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
-    "urlDate": "20219-08-02",
+    "permalink": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
+    "permalink-date": "20219-08-02",
     "author": "Microsoft Corporation",
-    "authorUrl": "https://www.microsoft.com/",
+    "author-site": "https://www.microsoft.com/",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain"
+    "license-url": "https://en.wikipedia.org/wiki/Public_domain"
   }
 ]
+}

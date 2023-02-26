@@ -1,11 +1,13 @@
-[
+{
+"attribution":[
   {
     "title": "Python logo and wordmark.svg",
-    "url": "https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg",
-    "urlDate": "2021-08-01",
+    "permalink": "https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg",
+    "permalink-date": "2021-08-01",
     "author": "Python Software Foundation",
-    "authorUrl": "https://www.python.org/psf/",
+    "author-site": "https://www.python.org/psf/",
     "license": "GNU General Public License",
-    "licenseUrl": "https://en.wikipedia.org/wiki/GNU_General_Public_License"
+    "license-url": "https://en.wikipedia.org/wiki/GNU_General_Public_License"
   }
 ]
+}

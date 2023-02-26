@@ -1,11 +1,13 @@
-[
+{
+"attribution":[
   {
     "title": "Visual Studio Icon 2019.svg",
-    "url": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Icon_2019.svg",
-    "urlDate": "2021-08-09",
+    "permalink": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Icon_2019.svg",
+    "permalink-date": "2021-08-09",
     "author": "Microsoft Corporation",
-    "authorUrl": "https://www.microsoft.com/",
+    "author-site": "https://www.microsoft.com/",
     "license": "Public domain",
-    "licenseUrl": "https://en.wikipedia.org/wiki/Public_domain"
+    "license-url": "https://en.wikipedia.org/wiki/Public_domain"
   }
 ]
+}

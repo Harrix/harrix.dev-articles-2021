@@ -1,11 +1,13 @@
-[
+{
+"attribution":[
   {
     "title": "Cb_splash.png",
-    "url": "https://wiki.codeblocks.org/index.php/File:Cb_splash.png",
-    "urlDate": "2021-08-20",
+    "permalink": "https://wiki.codeblocks.org/index.php/File:Cb_splash.png",
+    "permalink-date": "2021-08-20",
     "author": "The Code::Blocks team",
-    "authorUrl": "https://www.codeblocks.org/",
+    "author-site": "https://www.codeblocks.org/",
     "license": "GNU General Public License",
-    "licenseUrl": "https://en.wikipedia.org/wiki/GNU_General_Public_License"
+    "license-url": "https://en.wikipedia.org/wiki/GNU_General_Public_License"
   }
 ]
+}
