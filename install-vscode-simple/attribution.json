@@ -1,13 +1,13 @@
 {
-"attribution":[
-  {
-    "title": "Visual Studio Code 1.35 icon.svg",
-    "permalink": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
-    "permalink-date": "20219-08-02",
-    "author": "Microsoft Corporation",
-    "author-site": "https://www.microsoft.com/",
-    "license": "Public domain",
-    "license-url": "https://en.wikipedia.org/wiki/Public_domain"
-  }
-]
+  "attribution": [
+    {
+      "title": "Visual Studio Code 1.35 icon.svg",
+      "permalink": "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
+      "permalink-date": "20219-08-02",
+      "author": "Microsoft Corporation",
+      "author-site": "https://www.microsoft.com/",
+      "license": "Public domain",
+      "license-url": "https://en.wikipedia.org/wiki/Public_domain"
+    }
+  ]
 }
