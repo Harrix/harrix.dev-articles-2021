@@ -10,13 +10,25 @@ permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/add-2
 permalink: https://harrix.dev/ru/blog/2021/add-2-num-vscode-python/
 lang: ru
 attribution:
-- {author: Python Software Foundation, author-site: 'https://www.python.org/psf/',
-  license: GNU General Public License, license-url: 'https://en.wikipedia.org/wiki/GNU_General_Public_License',
-  permalink: 'https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg',
-  permalink-date: 2021-08-01, name: Python logo and wordmark.svg}
-- {author: Microsoft Corporation, author-site: 'https://www.microsoft.com/', license: Public
-    domain, license-url: 'https://en.wikipedia.org/wiki/Public_domain', permalink: 'https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg',
-  permalink-date: 2019-08-02, name: Visual Studio Code 1.35 icon.svg}
+  - {
+      author: Python Software Foundation,
+      author-site: "https://www.python.org/psf/",
+      license: GNU General Public License,
+      license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License",
+      permalink: "https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg",
+      permalink-date: 2021-08-01,
+      name: Python logo and wordmark.svg,
+    }
+  - {
+      author: Microsoft Corporation,
+      author-site: "https://www.microsoft.com/",
+      license: Public
+        domain,
+      license-url: "https://en.wikipedia.org/wiki/Public_domain",
+      permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
+      permalink-date: 2019-08-02,
+      name: Visual Studio Code 1.35 icon.svg,
+    }
 ---
 
 # Сложение двух чисел в VSCode на Python
