@@ -6,8 +6,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-virtual-box/install-virtual-box.md
-permalink: https://harrix.dev/ru/blog/2021/install-virtual-box/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-virtual-box/install-virtual-box.md
+permalink: https://harrix.dev/ru/articles/2021/install-virtual-box/
 lang: ru
 ---
 

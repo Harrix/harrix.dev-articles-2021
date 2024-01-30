@@ -7,8 +7,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-pycharm/install-pycharm.md
-permalink: https://harrix.dev/ru/blog/2021/install-pycharm/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-pycharm/install-pycharm.md
+permalink: https://harrix.dev/ru/articles/2021/install-pycharm/
 lang: ru
 attributionċ
   - {
@@ -28,7 +28,7 @@ attributionċ
 
 PyCharm является одним из самых популярных сред для программирования на Python.
 
-Вначале нужно установить Python. В статье [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/blog/2021/install-python/ --> об этом рассказывается.
+Вначале нужно установить Python. В статье [Установка Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/articles/2021/install-python/ --> об этом рассказывается.
 
 ## Скачивание
 
@@ -182,4 +182,4 @@ _Рисунок 25 — Отключение Inlay Hints_
 
 ![Код  без встроенных подсказок](img/pycharm-inlay-hints_03.png)
 
-_Рисунок 26 — Код  без встроенных подсказок_
+_Рисунок 26 — Код без встроенных подсказок_

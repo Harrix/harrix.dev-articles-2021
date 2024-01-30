@@ -6,20 +6,12 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-visual-studio-2019/install-visual-studio-2019.md
-permalink: https://harrix.dev/ru/blog/2021/install-visual-studio-2019/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-visual-studio-2019/install-visual-studio-2019.md
+permalink: https://harrix.dev/ru/articles/2021/install-visual-studio-2019/
 lang: ru
 attribution:
-  - {
-      author: Microsoft Corporation,
-      author-site: "https://www.microsoft.com/",
-      license: Public
-        domain,
-      license-url: "https://en.wikipedia.org/wiki/Public_domain",
-      permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Icon_2019.svg",
-      permalink-date: 2021-08-09,
-      name: Visual Studio Icon 2019.svg,
-    }
+  - { author: Microsoft Corporation, author-site: "https://www.microsoft.com/", license: Public
+        domain, license-url: "https://en.wikipedia.org/wiki/Public_domain", permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Icon_2019.svg", permalink-date: 2021-08-09, name: Visual Studio Icon 2019.svg }
 ---
 
 # Установка Visual Studio 2019 Community

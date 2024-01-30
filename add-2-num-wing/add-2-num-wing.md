@@ -6,8 +6,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/add-2-num-wing/add-2-num-wing.md
-permalink: https://harrix.dev/ru/blog/2021/add-2-num-wing/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/add-2-num-wing/add-2-num-wing.md
+permalink: https://harrix.dev/ru/articles/2021/add-2-num-wing/
 lang: ru
 ---
 
@@ -19,7 +19,7 @@ lang: ru
 
 ## Установка программы
 
-Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/blog/2021/install-python/ -->.
+Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/articles/2021/install-python/ -->.
 
 После этого на сайте <https://wingware.com/downloads/wing-personal> скачиваем установщик:
 

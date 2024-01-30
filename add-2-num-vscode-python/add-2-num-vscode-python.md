@@ -6,8 +6,8 @@ author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
 license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
-permalink-source: https://github.com/Harrix/harrix.dev-blog-2021/blob/main/add-2-num-vscode-python/add-2-num-vscode-python.md
-permalink: https://harrix.dev/ru/blog/2021/add-2-num-vscode-python/
+permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/add-2-num-vscode-python/add-2-num-vscode-python.md
+permalink: https://harrix.dev/ru/articles/2021/add-2-num-vscode-python/
 lang: ru
 attribution:
   - {
@@ -19,16 +19,8 @@ attribution:
       permalink-date: 2021-08-01,
       name: Python logo and wordmark.svg,
     }
-  - {
-      author: Microsoft Corporation,
-      author-site: "https://www.microsoft.com/",
-      license: Public
-        domain,
-      license-url: "https://en.wikipedia.org/wiki/Public_domain",
-      permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
-      permalink-date: 2019-08-02,
-      name: Visual Studio Code 1.35 icon.svg,
-    }
+  - { author: Microsoft Corporation, author-site: "https://www.microsoft.com/", license: Public
+        domain, license-url: "https://en.wikipedia.org/wiki/Public_domain", permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg", permalink-date: 2019-08-02, name: Visual Studio Code 1.35 icon.svg }
 ---
 
 # Сложение двух чисел в VSCode на Python
@@ -39,9 +31,9 @@ attribution:
 
 ## Установка программы
 
-Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/blog/2021/install-python/ -->.
+Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/articles/2021/install-python/ -->.
 
-Установите VSCode. Есть статья по его простой установке [Установка Visual Studio Code (простая)](https://github.com/Harrix/harrix.dev-blog-2021/blob/main/install-vscode-simple/install-vscode-simple.md) <!-- https://harrix.dev/ru/blog/2021/install-vscode-simple/ -->. И есть статья с подробной и хардкорной настройкой [Установка Visual Studio Code](/blog/2022/install-vscode/).
+Установите VSCode. Есть статья по его простой установке [Установка Visual Studio Code (простая)](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-vscode-simple/install-vscode-simple.md) <!-- https://harrix.dev/ru/articles/2021/install-vscode-simple/ -->. И есть статья с подробной и хардкорной настройкой [Установка Visual Studio Code](/blog/2022/install-vscode/).
 
 После установите расширение Python в VScode:
 
