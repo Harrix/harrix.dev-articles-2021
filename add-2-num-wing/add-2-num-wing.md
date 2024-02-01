@@ -19,7 +19,7 @@ lang: ru
 
 ## Установка программы
 
-Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) <!-- https://harrix.dev/ru/articles/2021/install-python/ -->.
+Вначале надо установить Python себе на компьютер. Смотрите статью [Установка Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md)<!-- https://harrix.dev/ru/articles/2021/install-python/ -->.
 
 После этого на сайте <https://wingware.com/downloads/wing-personal> скачиваем установщик:
 
