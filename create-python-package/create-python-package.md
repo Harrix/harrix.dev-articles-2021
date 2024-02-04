@@ -744,7 +744,7 @@ pip install harrix-test-package --upgrade
 
 У нас есть, например, на GitHub [исходники](https://github.com/Harrix/harrix-test-package) нашего пакета, которые мы хотим склонировать на другой компьютер, например, в папку `c:\python-projects` (для примера папку специально назвал по-другому, чтобы она отличалась от `c:\projects`).
 
-Считаем, что [Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md)<!-- https://harrix.dev/ru/articles/2021/install-python/ --> и [Git](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-git/install-git.md)<!-- https://harrix.dev/ru/articles/2021/install-git/ --> у вас установлены на новой машине. Cклонировать проект можно такой командой:
+Считаем, что [Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) | [🡥](https://harrix.dev/ru/articles/2021/install-python/) и [Git](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-git/install-git.md) | [🡥](https://harrix.dev/ru/articles/2021/install-git/) у вас установлены на новой машине. Cклонировать проект можно такой командой:
 
 ```console
 mkdir c:\python-projects
