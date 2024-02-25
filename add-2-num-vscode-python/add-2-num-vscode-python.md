@@ -19,8 +19,16 @@ attribution:
       permalink-date: 2021-08-01,
       name: Python logo and wordmark.svg,
     }
-  - { author: Microsoft Corporation, author-site: "https://www.microsoft.com/", license: Public
-        domain, license-url: "https://en.wikipedia.org/wiki/Public_domain", permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg", permalink-date: 2019-08-02, name: Visual Studio Code 1.35 icon.svg }
+  - {
+      author: Microsoft Corporation,
+      author-site: "https://www.microsoft.com/",
+      license: Public
+        domain,
+      license-url: "https://en.wikipedia.org/wiki/Public_domain",
+      permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
+      permalink-date: 2019-08-02,
+      name: Visual Studio Code 1.35 icon.svg,
+    }
 ---
 
 # Сложение двух чисел в VSCode на Python
