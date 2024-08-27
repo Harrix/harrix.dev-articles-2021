@@ -20,7 +20,7 @@ lang: ru
 
 Пакет, созданный для этой статьи:
 
-- <https://github.com/Harrix/harrix-test-package>
+- [https://github.com/Harrix/harrix-test-package/tree/](https://github.com/Harrix/harrix-test-package/tree/76b8afe68ea6082130da4721229f21d890cc3368)
 - <https://pypi.org/project/harrix-test-package>
 - <https://test.pypi.org/project/harrix-test-package>
 

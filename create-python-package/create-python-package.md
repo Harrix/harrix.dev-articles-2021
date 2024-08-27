@@ -31,7 +31,7 @@ attribution:
 
 Пакет, созданный для этой статьи:
 
-- <https://github.com/Harrix/harrix-test-package>
+- [https://github.com/Harrix/harrix-test-package](https://github.com/Harrix/harrix-test-package/tree/c4b5a51723920a9fdad966c29e769b44dc35384b)
 - <https://pypi.org/project/harrix-test-package>
 - <https://test.pypi.org/project/harrix-test-package>
 
