@@ -47,7 +47,7 @@ attribution:
 
 Проверьте доступность Python из командной строки:
 
-```console
+```powershell
 python --version
 ```
 
@@ -57,7 +57,7 @@ _Рисунок 1 — Версия_
 
 Обновите **pip** и установите **virtualenv**, если пакет еще не установлен:
 
-```console
+```powershell
 python -m pip install --upgrade pip
 python -m pip install virtualenv
 ```
@@ -72,7 +72,7 @@ _Рисунок 2 — Установка virtualenv_
 
 Создайте где-нибудь папку своего проекта. Например, я создал в папке `C:\projects` папку проекта `harrix-test-package`. Создавать можно как обычным путем через проводник, там и через консоль:
 
-```console
+```powershell
 mkdir c:\projects\harrix-test-package
 cd c:\projects\harrix-test-package
 ```
@@ -91,7 +91,7 @@ python -m virtualenv .env
 
 Затем активируйте его через команду `[Путь к виртуальному окружению]\Scripts\activate.bat`. В моем случае эта команда выглядит так:
 
-```console
+```powershell
 c:\projects\harrix-test-package\.env\Scripts\activate.bat
 ```
 
@@ -107,7 +107,7 @@ _Рисунок 4 — Активированное виртуальное окр
 
 Установите пакеты [setuptools](https://pypi.org/project/setuptools/), [twine](https://pypi.org/project/twine/), [wheel](https://pypi.org/project/wheel/):
 
-```console
+```powershell
 pip install setuptools
 pip install twine
 pip install wheel
@@ -257,11 +257,11 @@ Test package.
 
 ## Install
 
-```console
+```powershell
 pip install harrix-test-package
 ```
 
-```console
+```powershell
 pipenv install harrix-test-package
 ```
 
@@ -436,7 +436,7 @@ cython_debug/
 
 _Рисунок 5 — Ошибка при запуске пакетов_
 
-```console
+```powershell
 python -m unittest discover tests
 E
 ======================================================================
@@ -457,7 +457,7 @@ ModuleNotFoundError: No module named 'harrixtestpackage'
 
 Поэтому установим наш пакет в [режиме разработчика](https://packaging.python.org/guides/distributing-packages-using-setuptools/#working-in-development-mode), не публикуя его (не забудьте про точку в конце):
 
-```console
+```powershell
 python -m pip install -e .
 ```
 
@@ -467,7 +467,7 @@ _Рисунок 6 — Установка пакета в режиме разра
 
 Теперь запуск юнит-тестов пройдет успешно:
 
-```console
+```powershell
 python -m unittest discover tests
 ```
 
@@ -481,7 +481,7 @@ _Рисунок 7 — Тестирование пакета_
 
 Чтобы потом можно было развернуть проект на другой машине, то создайте файл со списком пакетов:
 
-```console
+```powershell
 python -m pip freeze > requirements.txt
 ```
 
@@ -500,7 +500,7 @@ python -m pip freeze > requirements.txt
 
 Соберите пакет для публикации:
 
-```console
+```powershell
 python setup.py sdist bdist_wheel
 ```
 
@@ -524,7 +524,7 @@ _Рисунок 9 — Успешная публикация пакета_
 
 Для проверки опубликованного пакета я создам новый Python проект (например, с именем `test`) со своим виртуальным окружением, куда установлю опубликованный пакет.
 
-```console
+```powershell
 deactivate
 mkdir c:\projects\test
 cd c:\projects\test
@@ -538,7 +538,7 @@ c:\projects\test\.env\Scripts\activate.bat
 
 _Рисунок 10 — Установленный пакет_
 
-```console
+```powershell
 python -m pip install -i https://test.pypi.org/simple/ harrix-test-package
 ```
 
@@ -553,7 +553,7 @@ print(h.multiply_2(2))
 
 После запустим данный файл:
 
-```console
+```powershell
 python main.py
 ```
 
@@ -567,7 +567,7 @@ _Рисунок 11 — Запуск скрипта_
 
 Теперь опубликуем пакет на основном сервере. Для демонстрации я закрыл командную строку и открыл новую. В ней перехожу в папку пакета и активирую виртуальное окружение (используя неполный путь):
 
-```console
+```powershell
 cd c:\projects\harrix-test-package
 .env\Scripts\activate.bat
 ```
@@ -576,7 +576,7 @@ cd c:\projects\harrix-test-package
 
 Соберите пакет для публикации:
 
-```console
+```powershell
 python setup.py sdist bdist_wheel
 ```
 
@@ -600,7 +600,7 @@ _Рисунок 13 — Пакет в библиотеке пакетов_
 
 Для проверки опубликованного пакета я создам новый Python проект (например, с именем `test2`) со своим виртуальным окружением, куда установлю опубликованный пакет.
 
-```console
+```powershell
 deactivate
 mkdir c:\projects\test2
 cd c:\projects\test2
@@ -614,7 +614,7 @@ python -m virtualenv .env
 
 _Рисунок 14 — Установленный пакет_
 
-```console
+```powershell
 python -m pip install harrix-test-package
 ```
 
@@ -629,7 +629,7 @@ print(h.multiply_2(2))
 
 После запустим данный файл:
 
-```console
+```powershell
 python main.py
 ```
 
@@ -689,7 +689,7 @@ if __name__ == '__main__':
 
 Теперь надо запустить юнит-тесты. Для примера я открыл новую командую строку (если вы были в чужом виртуальном окружении, то не забывайте выходить из него через `deactivate`):
 
-```console
+```powershell
 cd c:\projects\harrix-test-package
 .env\Scripts\activate.bat
 python -m unittest discover tests
@@ -725,7 +725,7 @@ setup(
 
 Собираем и публикуем пакет:
 
-```console
+```powershell
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
@@ -736,7 +736,7 @@ _Рисунок 17 — Публикация новой версии пакета
 
 В проектах, в котором использовался наш пакет обновляем его через команду:
 
-```console
+```powershell
 pip install harrix-test-package --upgrade
 ```
 
@@ -746,7 +746,7 @@ pip install harrix-test-package --upgrade
 
 Считаем, что [Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) | [🡥](https://harrix.dev/ru/articles/2021/install-python/) и [Git](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-git/install-git.md) | [🡥](https://harrix.dev/ru/articles/2021/install-git/) у вас установлены на новой машине. Cклонировать проект можно такой командой:
 
-```console
+```powershell
 mkdir c:\python-projects
 cd c:\python-projects
 git clone https://github.com/Harrix/harrix-test-package
@@ -757,14 +757,14 @@ cd c:\python-projects\harrix-test-package
 
 На всякий случай обновляем pip и устанавливаем virtualenv:
 
-```console
+```powershell
 python -m pip install --upgrade pip
 python -m pip install virtualenv
 ```
 
 Создаем виртуальное окружение и его активируем:
 
-```console
+```powershell
 python -m virtualenv .env
 .env\Scripts\activate.bat
 ```
@@ -778,13 +778,13 @@ python -m virtualenv .env
 
 Установите все пакеты из файла `requirements.txt`:
 
-```console
+```powershell
 python -m pip install -r requirements.txt
 ```
 
 Устанавливаем наш пакет в режиме разработчика:
 
-```console
+```powershell
 python -m pip install -e .
 ```
 
@@ -807,7 +807,7 @@ def test_multiply_30(self):
 
 Запускаю юнит-тесты:
 
-```console
+```powershell
 python -m unittest discover tests
 ```
 
@@ -815,7 +815,7 @@ python -m unittest discover tests
 
 Собираю и публикую пакет:
 
-```console
+```powershell
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
@@ -824,7 +824,7 @@ twine upload dist/*
 
 Если вы пока не хотите публиковать разрабатываемый пакет, но хотите использовать его в другом проекте, то его можно установить локально:
 
-```console
+```powershell
 pip install -e c:/projects/harrix-test-package
 ```
 
