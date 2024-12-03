@@ -39,7 +39,7 @@ _Рисунок 1 — Поиск IDLE_
 
 Либо, например, запустить программу `pythonw.exe` с параметром пути к файлу `idle.pyw`. У меня это так выглядит:
 
-```powershell
+```cmd
 C:\Python39\pythonw.exe "C:\Python39\Lib\idlelib\idle.pyw"
 ```
 
