@@ -46,13 +46,13 @@ attribution:
 
 Проверьте доступность Python из командной строки:
 
-```cmd
+```shell
 python --version
 ```
 
 Обновите **pip** и установите **virtualenv**, **pipenv** если пакеты еще не установлены:
 
-```cmd
+```shell
 python -m pip install --upgrade pip
 python -m pip install virtualenv
 python -m pip install pipenv
@@ -64,7 +64,7 @@ python -m pip install pipenv
 
 Создайте где-нибудь папку своего проекта. Например, я создал в папке `C:\projects` папку проекта `harrix-test-package`. Создавать можно как обычным путем через проводник, там и через консоль:
 
-```cmd
+```shell
 mkdir c:\projects\harrix-test-package
 cd c:\projects\harrix-test-package
 ```
@@ -77,7 +77,7 @@ pipenv install
 
 Затем активируйте его через команду:
 
-```cmd
+```shell
 pipenv shell
 ```
 
@@ -95,7 +95,7 @@ _Рисунок 1 — Активированное виртуальное окр
 
 Установите пакеты [setuptools](https://pypi.org/project/setuptools/), [twine](https://pypi.org/project/twine/), [wheel](https://pypi.org/project/wheel/):
 
-```cmd
+```shell
 pipenv install setuptools
 pipenv install twine
 pipenv install wheel
@@ -245,11 +245,11 @@ Test package.
 
 ## Install
 
-```cmd
+```shell
 pip install harrix-test-package
 ```
 
-```cmd
+```shell
 pipenv install harrix-test-package
 ```
 
@@ -420,7 +420,7 @@ cython_debug/
 
 Но если запустить файл `test_functions.py` с тестами или запустить тесты через команду `python -m unittest discover tests`, то Python не найдет наш пакет:
 
-```cmd
+```shell
 python -m unittest discover tests
 E
 ======================================================================
@@ -447,7 +447,7 @@ FAILED (errors=1)
 
 Поэтому установим наш пакет в [режиме разработчика](https://pipenv.pypa.io/en/latest/basics/#editable-dependencies-e-g-e), не публикуя его (не забудьте про точку в конце):
 
-```cmd
+```shell
 pipenv install --dev -e .
 ```
 
@@ -457,7 +457,7 @@ _Рисунок 2 — Установка пакета в режиме разра
 
 Теперь запуск юнит-тестов пройдет успешно:
 
-```cmd
+```shell
 python -m unittest discover tests
 ```
 
@@ -471,7 +471,7 @@ python -m unittest discover tests
 
 Соберите пакет для публикации:
 
-```cmd
+```shell
 python setup.py sdist bdist_wheel
 ```
 
@@ -487,7 +487,7 @@ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
 Для проверки опубликованного пакета я создам новый Python проект (например, с именем `test`) со своим виртуальным окружением, куда установлю опубликованный пакет.
 
-```cmd
+```shell
 exit
 mkdir c:\projects\test
 cd c:\projects\test
@@ -499,7 +499,7 @@ pipenv shell
 
 Устанавливаем пакет. Команду для установки берем со страницы пакета <https://test.pypi.org/project/harrix-test-package>:
 
-```cmd
+```shell
 pipenv install -i https://test.pypi.org/simple/ harrix-test-package
 ```
 
@@ -514,7 +514,7 @@ print(h.multiply_2(2))
 
 После запустим данный файл:
 
-```cmd
+```shell
 python main.py
 ```
 
@@ -524,7 +524,7 @@ python main.py
 
 Теперь опубликуем пакет на основном сервере. Для демонстрации я закрыл командную строку и открыл новую. В ней перехожу в папку пакета и активирую виртуальное окружение (используя неполный путь):
 
-```cmd
+```shell
 cd c:\projects\harrix-test-package
 pipenv shell
 ```
@@ -533,7 +533,7 @@ pipenv shell
 
 Соберите пакет для публикации:
 
-```cmd
+```shell
 python setup.py sdist bdist_wheel
 ```
 
@@ -549,7 +549,7 @@ twine upload dist/*
 
 Для проверки опубликованного пакета я создам новый Python проект (например, с именем `test2`) со своим виртуальным окружением, куда установлю опубликованный пакет.
 
-```cmd
+```shell
 exit
 mkdir c:\projects\test2
 cd c:\projects\test2
@@ -561,7 +561,7 @@ pipenv shell
 
 Устанавливаем пакет. Команду для установки берем со страницы пакета <https://pypi.org/project/harrix-test-package>.
 
-```cmd
+```shell
 pipenv install harrix-test-package
 ```
 
@@ -576,7 +576,7 @@ print(h.multiply_2(2))
 
 После запустим данный файл:
 
-```cmd
+```shell
 python main.py
 ```
 
@@ -632,7 +632,7 @@ if __name__ == '__main__':
 
 Теперь надо запустить юнит-тесты. Для примера я открыл новую командую строку (если вы были в чужом виртуальном окружении, то не забывайте выходить из него через `exit`):
 
-```cmd
+```shell
 cd c:\projects\harrix-test-package
 pipenv shell
 python -m unittest discover tests
@@ -668,14 +668,14 @@ setup(
 
 Собираем и публикуем пакет:
 
-```cmd
+```shell
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
 
 В проектах, в котором использовался наш пакет обновляем его через команду:
 
-```cmd
+```shell
 pipenv update harrix-test-package
 ```
 
@@ -685,7 +685,7 @@ pipenv update harrix-test-package
 
 Считаем, что [Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) | [🡥](https://harrix.dev/ru/articles/2021/install-python/) и [Git](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-git/install-git.md) | [🡥](https://harrix.dev/ru/articles/2021/install-git/) у вас установлены на новой машине. Cклонировать проект можно такой командой:
 
-```cmd
+```shell
 mkdir c:\python-projects
 cd c:\python-projects
 git clone https://github.com/Harrix/harrix-test-package
@@ -700,7 +700,7 @@ cd c:\python-projects\harrix-test-package
 
 На всякий случай обновляем pip и устанавливаем virtualenv, pipenv:
 
-```cmd
+```shell
 python -m pip install --upgrade pip
 python -m pip install virtualenv
 python -m pip install pipenv
@@ -708,14 +708,14 @@ python -m pip install pipenv
 
 Создаем виртуальное окружение и его активируем, устанавливаем все пакеты из файла `Pipfile`:
 
-```cmd
+```shell
 pipenv install
 pipenv shell
 ```
 
 Устанавливаем наш пакет в режиме разработчика:
 
-```cmd
+```shell
 pipenv install --dev -e .
 ```
 
@@ -738,7 +738,7 @@ def test_multiply_30(self):
 
 Запускаю юнит-тесты:
 
-```cmd
+```shell
 python -m unittest discover tests
 ```
 
@@ -746,7 +746,7 @@ python -m unittest discover tests
 
 Собираю и публикую пакет:
 
-```cmd
+```shell
 python setup.py sdist bdist_wheel
 twine upload dist/*
 ```
@@ -755,7 +755,7 @@ twine upload dist/*
 
 Если вы пока не хотите публиковать разрабатываемый пакет, но хотите использовать его в другом проекте, то его можно установить локально:
 
-```cmd
+```shell
 pip install -e c:/projects/harrix-test-package
 ```
 
