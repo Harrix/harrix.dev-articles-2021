@@ -27,6 +27,13 @@ attribution:
 
 В статье приведен список сайтов, где можно программировать на Python без установки какого-либо программного обеспечения.
 
+- [Код](#код)
+- [Trinket.io](#trinketio)
+- [Onlinegdb.com](#onlinegdbcom)
+- [Replit.com](#replitcom)
+- [Online-python.com](#onlinepythoncom)
+- [Programiz.com](#programizcom)
+
 ## Код
 
 На всех сайтах будет тестироваться вот такой код сложения двух чисел:
