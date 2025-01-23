@@ -10,8 +10,16 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/i
 permalink: https://harrix.dev/ru/articles/2021/install-vscode-simple/
 lang: ru
 attribution:
-  - { author: Microsoft Corporation, author-site: "https://www.microsoft.com/", license: Public
-        domain, license-url: "https://en.wikipedia.org/wiki/Public_domain", permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg", permalink-date: 2019-08-02, name: Visual Studio Code 1.35 icon.svg }
+  - {
+      author: Microsoft Corporation,
+      author-site: "https://www.microsoft.com/",
+      license: Public
+        domain,
+      license-url: "https://en.wikipedia.org/wiki/Public_domain",
+      permalink: "https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_1.35_icon.svg",
+      permalink-date: 2019-08-02,
+      name: Visual Studio Code 1.35 icon.svg,
+    }
 ---
 
 # Установка Visual Studio Code (простая) и открытие Markdown
