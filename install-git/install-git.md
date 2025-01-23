@@ -10,16 +10,8 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/i
 permalink: https://harrix.dev/ru/articles/2021/install-git/
 lang: ru
 attribution:
-  - {
-      author: Jason Long,
-      author-site: "https://twitter.com/jasonlong",
-      license: CC BY-SA
-        3.0,
-      license-url: "https://creativecommons.org/licenses/by-sa/3.0/",
-      permalink: "https://commons.wikimedia.org/wiki/File:Git-logo.svg",
-      permalink-date: 2021-08-20,
-      name: Git-logo.svg,
-    }
+  - { author: Jason Long, author-site: "https://twitter.com/jasonlong", license: CC BY-SA
+        3.0, license-url: "https://creativecommons.org/licenses/by-sa/3.0/", permalink: "https://commons.wikimedia.org/wiki/File:Git-logo.svg", permalink-date: 2021-08-20, name: Git-logo.svg }
 ---
 
 # Установка Git + GitHub Desktop и работа с ними
@@ -233,9 +225,8 @@ _Рисунок 31 — Настройка проекта_
 
 Хоть остальное опционально, но расскажу про каждый пункт под спойлером:
 
----
-
-**Описание параметров репозитория** <!-- !details -->
+<details>
+<summary>Описание параметров репозитория</summary>
 
 **Description** — необязательное описание вашего проекта. Помогает в поиске проектов.
 
@@ -265,7 +256,7 @@ _Рисунок 34 — Пример выбора файла .gitignore_
 
 Кстати, все эти три файла можно будет добавлять в проект потом вручную как обычные файлы, так что не обязательно их сейчас тут выбирать.
 
----
+</details>
 
 Итак, вы нажали на кнопку `Create repository`, и у вас создаться репозиторий:
 

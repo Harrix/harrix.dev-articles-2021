@@ -10,16 +10,8 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/a
 permalink: https://harrix.dev/ru/articles/2021/add-2-num-code-blocks/
 lang: ru
 attribution:
-  - {
-      author: "The Code::Blocks team",
-      author-site: "https://www.codeblocks.org/",
-      license: GNU
-        General Public License,
-      license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License",
-      permalink: "https://wiki.codeblocks.org/index.php/File:Cb_splash.png",
-      permalink-date: 2021-08-20,
-      name: Cb_splash.png,
-    }
+  - { author: "The Code::Blocks team", author-site: "https://www.codeblocks.org/", license: GNU
+        General Public License, license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License", permalink: "https://wiki.codeblocks.org/index.php/File:Cb_splash.png", permalink-date: 2021-08-20, name: Cb_splash.png }
 ---
 
 # Сложение двух чисел в Code::Blocks
@@ -41,9 +33,8 @@ attribution:
 
 _Рисунок 1 — Скачивание установщика_
 
----
-
-**Установка Code::Blocks** <!-- !details -->
+<details>
+<summary>Установка Code::Blocks</summary>
 
 ![Первое окно установки](img/install_01.png)
 
@@ -79,7 +70,7 @@ _Рисунок 8 — Окончание установки_
 
 _Рисунок 9 — Открытая программа Code::Blocks_
 
----
+</details>
 
 ## Создание проекта
 

@@ -291,9 +291,8 @@ print(h.multiply_2(2))
 
 Если вы проект храните в git, то не забудьте про файл `.gitignore` под Python. Его можно найти [тут](https://github.com/github/gitignore) или сгенерировать [тут](https://www.toptal.com/developers/gitignore).
 
----
-
-**.gitignore** <!-- !details -->
+<details>
+<summary>.gitignore</summary>
 
 ```python
 ### Python ###
@@ -438,7 +437,7 @@ cython_debug/
 
 ```
 
----
+</details>
 
 ## Тестирование пакета
 
