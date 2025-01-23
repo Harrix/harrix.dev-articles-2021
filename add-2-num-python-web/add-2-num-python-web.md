@@ -31,7 +31,7 @@ attribution:
 - [Trinket.io](#trinketio)
 - [Onlinegdb.com](#onlinegdbcom)
 - [Replit.com](#replitcom)
-- [Online-python.com](#onlinepythoncom)
+- [Online-python.com](#online-pythoncom)
 - [Programiz.com](#programizcom)
 
 ## Код

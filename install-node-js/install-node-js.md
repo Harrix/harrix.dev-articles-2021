@@ -30,7 +30,7 @@ attribution:
 - [Скачивание](#скачивание)
 - [Установка](#установка)
 - [Установка пакетов](#установка-пакетов)
-  - [npm-check-updates](#npmcheckupdates)
+  - [npm-check-updates](#npm-check-updates)
   - [prettier](#prettier)
 
 ## Скачивание
