@@ -1,7 +1,12 @@
 ---
 date: 2021-08-09
-categories: [it, program]
-tags: [Установка, Java, Android]
+categories:
+  - it
+  - program
+tags:
+  - Установка
+  - Java
+  - Android
 related-id: start-java
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com

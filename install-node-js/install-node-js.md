@@ -1,7 +1,11 @@
 ---
 date: 2021-08-16
-categories: [it, programming]
-tags: [Установка, JavaScript]
+categories:
+  - it
+  - programming
+tags:
+  - Установка
+  - JavaScript
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
@@ -10,15 +14,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/i
 permalink: https://harrix.dev/ru/articles/2021/install-node-js/
 lang: ru
 attribution:
-  - {
-      author: node.js authors,
-      author-site: "https://nodejs.org/",
-      license: Public domain,
-      license-url: "https://en.wikipedia.org/wiki/Public_domain",
-      permalink: "https://commons.wikimedia.org/wiki/File:Node.js_logo.svg",
-      permalink-date: 2019-06-21,
-      name: Node.js logo.svg,
-    }
+  - author: node.js authors
+    author-site: https://nodejs.org/
+    license: Public domain
+    license-url: https://en.wikipedia.org/wiki/Public_domain
+    permalink: https://commons.wikimedia.org/wiki/File:Node.js_logo.svg
+    permalink-date: 2019-06-21
+    name: Node.js logo.svg
 ---
 
 # Установка Node.js

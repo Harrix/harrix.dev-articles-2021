@@ -1,7 +1,10 @@
 ---
 date: 2021-10-03
-categories: [it, programming]
-tags: [Python]
+categories:
+  - it
+  - programming
+tags:
+  - Python
 download: https://github.com/Harrix/harrix.dev-articles-2021/raw/main/create-python-package/files/harrix-test-package.zip
 related-id: create-python-package
 author: Anton Sergienko
@@ -12,15 +15,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/c
 permalink: https://harrix.dev/ru/articles/2021/create-python-package/
 lang: ru
 attribution:
-  - {
-      author: Python Packaging Authority / Python Software Foundation,
-      author-site: "https://pypi.org/",
-      license: GNU General Public License,
-      license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License",
-      permalink: "https://en.wikipedia.org/wiki/File:PyPI_logo.svg",
-      permalink-date: 2021-10-03,
-      name: PyPI logo.svg,
-    }
+  - author: Python Packaging Authority / Python Software Foundation
+    author-site: https://pypi.org/
+    license: GNU General Public License
+    license-url: https://en.wikipedia.org/wiki/GNU_General_Public_License
+    permalink: https://en.wikipedia.org/wiki/File:PyPI_logo.svg
+    permalink-date: 2021-10-03
+    name: PyPI logo.svg
 ---
 
 # Создание пакетов в Python

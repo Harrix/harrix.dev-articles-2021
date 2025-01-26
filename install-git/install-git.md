@@ -1,7 +1,12 @@
 ---
 date: 2021-08-22
-categories: [it, program]
-tags: [Установка, Git, GitHub]
+categories:
+  - it
+  - program
+tags:
+  - Установка
+  - Git
+  - GitHub
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
@@ -10,16 +15,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/i
 permalink: https://harrix.dev/ru/articles/2021/install-git/
 lang: ru
 attribution:
-  - {
-      author: Jason Long,
-      author-site: "https://twitter.com/jasonlong",
-      license: CC BY-SA
-        3.0,
-      license-url: "https://creativecommons.org/licenses/by-sa/3.0/",
-      permalink: "https://commons.wikimedia.org/wiki/File:Git-logo.svg",
-      permalink-date: 2021-08-20,
-      name: Git-logo.svg,
-    }
+  - author: Jason Long
+    author-site: https://twitter.com/jasonlong
+    license: CC BY-SA 3.0
+    license-url: https://creativecommons.org/licenses/by-sa/3.0/
+    permalink: https://commons.wikimedia.org/wiki/File:Git-logo.svg
+    permalink-date: 2021-08-20
+    name: Git-logo.svg
 ---
 
 # Установка Git + GitHub Desktop и работа с ними
