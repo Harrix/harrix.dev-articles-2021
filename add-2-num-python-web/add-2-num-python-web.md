@@ -35,6 +35,8 @@ attribution:
 <details>
 <summary>📖 Содержание</summary>
 
+## Содержание
+
 - [Код](#код)
 - [Trinket.io](#trinketio)
 - [Onlinegdb.com](#onlinegdbcom)
