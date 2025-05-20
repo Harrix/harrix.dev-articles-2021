@@ -10,7 +10,7 @@ license-url: https://github.com/Harrix/harrix.dev/blob/main/LICENSE.md
 permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-pycharm/install-pycharm.md
 permalink: https://harrix.dev/ru/articles/2021/install-pycharm/
 lang: ru
-attributionċ
+attribution:
   - {
       author: Python Software Foundation,
       author-site: "https://www.python.org/psf/",
