@@ -1,8 +1,12 @@
 ---
 date: 2021-08-17
 update: 2024-01-28
-categories: [it, program]
-tags: [Установка, Python]
+categories:
+  - it
+  - program
+tags:
+  - Установка
+  - Python
 author: Anton Sergienko
 author-email: anton.b.sergienko@gmail.com
 license: CC BY 4.0
@@ -11,15 +15,13 @@ permalink-source: https://github.com/Harrix/harrix.dev-articles-2021/blob/main/i
 permalink: https://harrix.dev/ru/articles/2021/install-pycharm/
 lang: ru
 attribution:
-  - {
-      author: Python Software Foundation,
-      author-site: "https://www.python.org/psf/",
-      license: GNU General Public License,
-      license-url: "https://en.wikipedia.org/wiki/GNU_General_Public_License",
-      permalink: "https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg",
-      permalink-date: 2021-08-01,
-      name: Python logo and wordmark.svg,
-    }
+  - author: Python Software Foundation
+    author-site: https://www.python.org/psf/
+    license: GNU General Public License
+    license-url: https://en.wikipedia.org/wiki/GNU_General_Public_License
+    permalink: https://commons.wikimedia.org/wiki/File:Python_logo_and_wordmark.svg
+    permalink-date: 2021-08-01
+    name: Python logo and wordmark.svg
 ---
 
 # Установка PyCharm
@@ -28,10 +30,17 @@ attribution:
 
 PyCharm является одним из самых популярных сред для программирования на Python.
 
+<details>
+<summary>📖 Содержание ⬇️</summary>
+
+## Содержание
+
 - [Скачивание](#скачивание)
 - [Установка](#установка)
 - [Создание тестового проекта](#создание-тестового-проекта)
 - [Дополнительная настройка](#дополнительная-настройка)
+
+</details>
 
 Вначале нужно установить Python. В статье [Установка Python](https://github.com/Harrix/harrix.dev-articles-2021/blob/main/install-python/install-python.md) | [↗️](https://harrix.dev/ru/articles/2021/install-python/) об этом рассказывается.
 
