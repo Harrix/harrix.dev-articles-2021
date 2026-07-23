@@ -40,7 +40,7 @@ attribution:
 - [Установка пакетов для создания пакетов](#установка-пакетов-для-создания-пакетов)
 - [Создание пакета](#создание-пакета)
 - [Тестирование пакета](#тестирование-пакета)
-- [Создание requirements.txt](#создание-requirementstxt)
+- [Создание `requirements.txt`](#создание-requirementstxt)
 - [Сборка пакета и публикация на TestPyPi](#сборка-пакета-и-публикация-на-testpypi)
 - [Использование пакета, опубликованного на TestPyPi](#использование-пакета-опубликованного-на-testpypi)
 - [Сборка пакета и публикация на PyPi](#сборка-пакета-и-публикация-на-pypi)
@@ -53,7 +53,7 @@ attribution:
 
 Пакет, созданный для этой статьи:
 
-- [https://github.com/Harrix/harrix-test-package](https://github.com/Harrix/harrix-test-package/tree/c4b5a51723920a9fdad966c29e769b44dc35384b)
+- [https://GitHub.com/Harrix/harrix-test-package](https://github.com/Harrix/harrix-test-package/tree/c4b5a51723920a9fdad966c29e769b44dc35384b)
 - <https://pypi.org/project/harrix-test-package>
 - <https://test.pypi.org/project/harrix-test-package>
 
@@ -147,7 +147,7 @@ def multiply_10(x):
     return x * 10
 ```
 
-В качестве хорошей заготовки под новый пакет может служить проект [sampleproject](https://github.com/pypa/sampleproject). Рекомендую подробно ознакомиться с файлом [setup.py](https://github.com/pypa/sampleproject/blob/main/setup.py), так как из проекта для этой статьи я взял не всё. Например, если в вашем пакете используются другие библиотеки, то в `setup.py` нужно добавить блок `install_requires`.
+В качестве хорошей заготовки под новый пакет может служить проект [sampleproject](https://github.com/pypa/sampleproject). Рекомендую подробно ознакомиться с файлом [`setup.py`](https://github.com/pypa/sampleproject/blob/main/setup.py), так как из проекта для этой статьи я взял не всё. Например, если в вашем пакете используются другие библиотеки, то в `setup.py` нужно добавить блок `install_requires`.
 
 Папка `.env` уже была создана автоматически, и там располагается виртуальное окружение. Сами там ничего не трогаем.
 
@@ -297,7 +297,7 @@ print(h.multiply_2(2))
 ```
 ````
 
-Если вы проект храните в git, то не забудьте про файл `.gitignore` под Python. Его можно найти [тут](https://github.com/github/gitignore) или сгенерировать [тут](https://www.toptal.com/developers/gitignore).
+Если вы проект храните в Git, то не забудьте про файл `.gitignore` под Python. Его можно найти [тут](https://github.com/github/gitignore) или сгенерировать [тут](https://www.toptal.com/developers/gitignore).
 
 <details>
 <summary>.gitignore</summary>
@@ -442,7 +442,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
 ```
 
 </details>
@@ -498,7 +497,7 @@ _Рисунок 7 — Тестирование пакета_
 
 При этом вы можете вносить изменения в пакет и его тестировать без каких-либо дополнительных действий.
 
-## Создание requirements.txt
+## Создание `requirements.txt`
 
 Чтобы потом можно было развернуть проект на другой машине, то создайте файл со списком пакетов:
 

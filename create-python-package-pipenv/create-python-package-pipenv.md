@@ -51,7 +51,7 @@ attribution:
 
 Пакет, созданный для этой статьи:
 
-- [https://github.com/Harrix/harrix-test-package/tree/](https://github.com/Harrix/harrix-test-package/tree/76b8afe68ea6082130da4721229f21d890cc3368)
+- [https://GitHub.com/Harrix/harrix-test-package/tree/](https://github.com/Harrix/harrix-test-package/tree/76b8afe68ea6082130da4721229f21d890cc3368)
 - <https://pypi.org/project/harrix-test-package>
 - <https://test.pypi.org/project/harrix-test-package>
 
@@ -134,7 +134,7 @@ def multiply_10(x):
     return x * 10
 ```
 
-В качестве хорошей заготовки под новый пакет может служить проект [sampleproject](https://github.com/pypa/sampleproject). Рекомендую подробно ознакомиться с файлом [setup.py](https://github.com/pypa/sampleproject/blob/main/setup.py), так как из проекта для этой статьи я взял не всё. Например, если в вашем пакете используются другие библиотеки, то в `setup.py` нужно добавить блок `install_requires`.
+В качестве хорошей заготовки под новый пакет может служить проект [sampleproject](https://github.com/pypa/sampleproject). Рекомендую подробно ознакомиться с файлом [`setup.py`](https://github.com/pypa/sampleproject/blob/main/setup.py), так как из проекта для этой статьи я взял не всё. Например, если в вашем пакете используются другие библиотеки, то в `setup.py` нужно добавить блок `install_requires`.
 
 Файлы `Pipfile` и `Pipfile.lock` уже были созданы автоматически. Сами там ничего не трогаем.
 
@@ -284,7 +284,7 @@ print(h.multiply_2(2))
 ```
 ````
 
-Если вы проект храните в git, то не забудьте про файл `.gitignore` под Python. Его можно найти [тут](https://github.com/github/gitignore) или сгенерировать [тут](https://www.toptal.com/developers/gitignore).
+Если вы проект храните в Git, то не забудьте про файл `.gitignore` под Python. Его можно найти [тут](https://github.com/github/gitignore) или сгенерировать [тут](https://www.toptal.com/developers/gitignore).
 
 <details>
 <summary>.gitignore</summary>
@@ -429,7 +429,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
 ```
 
 </details>
