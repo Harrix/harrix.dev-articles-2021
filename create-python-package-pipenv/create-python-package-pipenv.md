@@ -578,7 +578,7 @@ pipenv shell
 
 Если вы не виртуальном окружении, то не используйте команду `exit`.
 
-Устанавливаем пакет. Команду для установки берем со страницы пакета <https://pypi.org/project/harrix-test-package>.
+Устанавливаем пакет. Команду для установки берем со страницы пакета <https://pypi.org/project/harrix-test-package>:
 
 ```shell
 pipenv install harrix-test-package
