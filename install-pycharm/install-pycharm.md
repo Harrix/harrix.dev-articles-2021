@@ -46,7 +46,7 @@ PyCharm является одним из самых популярных сре�
 
 ## Скачивание
 
-На сайте [jetbrains.com](https://www.jetbrains.com/pycharm/download/?section=windows) скачиваем установщик именно версии Community, которая бесплатная.
+На сайте [jetbrains.com](https://www.jetbrains.com/pycharm/download/?section=windows) скачиваем установщик именно версии Community, которая бесплатная:
 
 ![Скачивание установщика](img/download.png)
 
