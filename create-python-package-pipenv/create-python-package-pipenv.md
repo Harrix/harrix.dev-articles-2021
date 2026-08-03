@@ -524,7 +524,7 @@ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
 _Рисунок 8 — Выполнение команды `twine upload --repository-url`_
 
-![Выполнение команды `twine upload --repository-url`](img/testing_02.png)
+![Выполнение команды `twine upload --repository-url`](img/twine_02.png)
 
 _Рисунок 9 — Выполнение команды `twine upload --repository-url`_
 
